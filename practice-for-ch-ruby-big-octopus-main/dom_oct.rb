@@ -19,7 +19,9 @@ def find_longest_fish(fishes)
       right_longest
     end
 end
-  
+
+#O(n log n)
+#merge_sort 
 
 p find_longest_fish(['fish', 'fiiish', 'fiiiiish', 'fiiiish', 'fffish', 'ffiiiiisshh', 'fsh', 
     'fiiiissshhhhhh'])

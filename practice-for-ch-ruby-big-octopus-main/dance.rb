@@ -6,12 +6,16 @@ def slow_dance(move, tiles_array)
     end 
 end 
 
+#O(n)
+
 def fast_dance(move, new_tiles_data_structure)
-    new_tiles_data_structure.each { |oct_dig, dance_pos| return oct_dig if move == dance_pos }
+    new_tiles_data_structure[move]
 end 
 
+#O(1)
 
-new_tiles_data_structure = { 0=>"up",1=>"right-up",2=>"right",3=>"right_down",4=>"down",5=>"left-down",6=>"left",7=>"left-up"}
+
+new_tiles_data_structure = {"up"=>0,"right-up"=>1,"right"=>2,"right-down"=>3,"down"=>4,"left-down"=>5,"left"=>6,"left-up"=>7}
 
 tiles_array = ["up", "right-up", "right", "right-down", "down", "left-down", 
     "left",  "left-up"]

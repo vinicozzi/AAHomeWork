@@ -17,6 +17,8 @@ def slug_oct(fishes)
         longest_fish
 end 
 
+#O(n^2)
+
 
 p slug_oct(['fish', 'fiiish', 'fiiiiish', 'fiiiish', 'fffish', 'ffiiiiisshh', 'fsh', 
     'fiiiissshhhhhh'])

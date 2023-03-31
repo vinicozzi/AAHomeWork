@@ -13,7 +13,8 @@ def longest_fish(fishes)
   
     longest
   end
-  
+
+  #O(n)
 
 
 p longest_fish['fish', 'fiiish', 'fiiiiish', 'fiiiish', 'fffish', 'ffiiiiisshh', 'fsh', 
